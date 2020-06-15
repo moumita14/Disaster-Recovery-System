@@ -1,5 +1,7 @@
 # Disaster Response Pipeline Project
 
+This project is to classify disaster response messages through machine learning.The data is received from Figure Eight
+
 # Project components:
 The project consists of three components
 
