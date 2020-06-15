@@ -74,7 +74,11 @@ Here's the file structure of the project:
 2. Tutorials from Pandas and Sklearn were used developing the code:
 
 a) http://pandas.pydata.org/
+
 b) http://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+
 c) http://scikit-learn.org/stable/modules/model_evaluation.html#classification-report
+
 d) http://scikit-learn.org/stable/modules/classes.html#module-sklearn.ensemble
+
 e) https://www.udacity.com/
