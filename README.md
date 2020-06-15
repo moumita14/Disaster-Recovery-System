@@ -39,7 +39,7 @@ b) To run ML pipeline that trains classifier and saves python models/train_class
 # File structure:
 Here's the file structure of the project:
 
-# app
+## app
 
 1. template
 
@@ -49,7 +49,7 @@ Here's the file structure of the project:
 
 4. run.py # Flask file that runs app
 
-# data
+## data
 
 1. disaster_categories.csv # data to process
 
@@ -59,7 +59,7 @@ Here's the file structure of the project:
 
 4. DisasterResponse.db # database to save clean data to
 
-# models
+## models
 
 1. train_classifier.py
 
@@ -73,8 +73,8 @@ Here's the file structure of the project:
 
 2. Tutorials from Pandas and Sklearn were used developing the code:
 
-http://pandas.pydata.org/
-http://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
-http://scikit-learn.org/stable/modules/model_evaluation.html#classification-report
-http://scikit-learn.org/stable/modules/classes.html#module-sklearn.ensemble
-https://www.udacity.com/
+a) http://pandas.pydata.org/
+b) http://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+c) http://scikit-learn.org/stable/modules/model_evaluation.html#classification-report
+d) http://scikit-learn.org/stable/modules/classes.html#module-sklearn.ensemble
+e) https://www.udacity.com/
