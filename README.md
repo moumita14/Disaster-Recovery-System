@@ -1,6 +1,6 @@
 # Disaster Response Pipeline Project
 
-Project components:
+# Project components:
 The project consists of three components
 
 1. ETL Pipeline
@@ -9,6 +9,7 @@ Loads the messages and categories datasets
 Merges the two datasets
 Cleans the data
 Stores it in a SQLite database
+
 2. ML Pipeline
 
 Loads data from the SQLite database
@@ -17,60 +18,63 @@ Builds a text processing and machine learning pipeline
 Trains and tunes a model using GridSearchCV
 Outputs results on the test set
 Exports the final model as a pickle file
+
 3. Flask web app
 
 categorize new messages
 visualisations of the training set genres, categories and social media categories.
-Instructions:
-Run the following commands in the project's root directory to set up your database and model.
 
-To run ETL pipeline that cleans data and stores in database python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
-To run ML pipeline that trains classifier and saves python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
-Run the following command in the app's directory to run your web app. python run.py
+# Instructions:
 
-Go to http://0.0.0.0:3001/
+1. Run the following commands in the project's root directory to set up your database and model.
 
-File structure:
+a)  To run ETL pipeline that cleans data and stores in database python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+
+b) To run ML pipeline that trains classifier and saves python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+
+2. Run the following command in the app's directory to run your web app. python run.py
+
+3. Go to http://0.0.0.0:3001/
+
+# File structure:
 Here's the file structure of the project:
 
-app
+# app
 
-| - template
+1. template
 
-| |- master.html # main page of web app
+2. master.html # main page of web app
 
-| |- go.html # classification result page of web app
+3. go.html # classification result page of web app
 
-|- run.py # Flask file that runs app
+4. run.py # Flask file that runs app
 
-data
+# data
 
-|- disaster_categories.csv # data to process
+1. disaster_categories.csv # data to process
 
-|- disaster_messages.csv # data to process
+2. disaster_messages.csv # data to process
 
-|- process_data.py
+3. process_data.py
 
-|- DisasterResponse.db # database to save clean data to
+4. DisasterResponse.db # database to save clean data to
 
-models
+# models
 
-|- train_classifier.py
+1. train_classifier.py
 
-|- classifier.pkl # saved mode
+2. classifier.pkl # saved mode
 
-|- README.md
+3. README.md
 
-Acknowledgements
-Data has been provided by Figure Eight
+# Acknowledgements
 
-Tutorials from Pandas and Sklearn were used developing the code:
+1. Data has been provided by Figure Eight
+
+2. Tutorials from Pandas and Sklearn were used developing the code:
 
 http://pandas.pydata.org/
 http://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
 http://scikit-learn.org/stable/modules/model_evaluation.html#classification-report
 http://scikit-learn.org/stable/modules/classes.html#module-sklearn.ensemble
-Along with lessons in the Udacity Data Science Nanodegree
-
-Software engineering (Pandas and Flask)
-Data engineering (ETL, NLP, ML Pipelines)
+https://www.udacity.com/
